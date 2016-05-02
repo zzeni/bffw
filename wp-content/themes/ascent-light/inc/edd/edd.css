@@ -1,0 +1,766 @@
+/* Custom EDD Styles
+/* http://easydigitaldownloads.com
+/* ---------------------------------------------------------------- */
+
+.single .edd_download_purchase_form {
+    margin-bottom: 54px;
+    margin-top: 54px;
+    text-align: center;
+}
+
+/* Product display
+/* ----------------------------------------------------------------- */
+
+.product-cta {
+    text-align: center;
+    margin: 0 0 54px 0;
+    display: inline-block;   
+}
+
+.product-cta-bottom {
+    margin: 54px 0 0;
+}
+
+.product-cta.product-cta-variable {
+    margin-bottom: 0;
+}
+
+.product-cta-standard .product-price {
+    float: left;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f6f6f6;
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    min-height: 52px;
+}
+
+.product-buttons {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.product-buttons .edd-submit {
+}
+
+.product-cta-standard .product-buttons .btn {
+    min-height: 52px;
+    border-radius: 0;
+}
+
+.single .product-buttons .edd_download_purchase_form {
+    margin: 0;
+}
+
+.portfolio-row .edd-submit {
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.portfolio-row .edd-cart-added-alert {
+    margin-top: 54px;
+}
+
+.product-cta-variable .product-price {
+    background: none;
+}
+
+.product-cta-standard .product-price span {
+    display: block;
+}
+
+.product-cta-variable h2 {
+    margin: 0 0 10px 0;
+    font-size: 21px;
+}
+
+.product-cta-variable .edd_download_purchase_form .edd_price_options {
+    margin-bottom: 27px;
+}
+
+.single .product-cta-variable .edd_download_purchase_form {
+    margin: 0;
+}
+
+.product-cta .edd-cart-ajax-alert {
+    display: block;
+    text-align: center;
+    position: absolute;
+}
+
+.product-cta .edd-cart-added-alert {
+    display: inline-block;
+    float: none;
+    margin-top: 12px;
+    margin-left: 0;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background: #000;
+    color: #fff;
+    position: relative;
+    width: 200px;
+}
+
+.product-cta .edd-cart-added-alert:after {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #000;
+    top: -10px;
+    left: 20px;
+    content: " ";
+    display: block;
+    position: absolute;
+}
+
+/* Sidebar widgets
+/* ----------------------------------------------------------------- */
+
+ul.edd-cart {
+    margin: 0;
+    padding: 0;
+}
+
+.widget .edd-cart-number-of-items {
+    margin-bottom: 10px;
+}
+
+.widget .edd-cart-item-title {
+    
+}
+
+.edd-cart .edd-cart-item {
+    margin: 0 0 10px 0 !important;
+    padding: 10px 0 !important;
+    border-top: 1px solid #eee;
+}
+
+.edd-cart .edd_total {
+    padding: 10px !important;
+    margin: 0 0 10px 0 !important;
+}
+
+.edd-cart .cart_item.edd_checkout {
+    display: inline-block;
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+
+.edd-cart .edd_checkout {
+    margin-top: 20px;
+}
+
+.edd-cart-meta.edd_subtotal, 
+.edd-cart-meta.edd_total {
+    color: #262626;
+    font-weight: normal;
+}
+
+.blog-sidebar .widget_edd_product_details h3:nth-child(2) {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.widget_edd_product_details .edd-meta {
+    margin-top: 10px;
+}
+
+/* CART
+/* ----------------------------------------------------------------- */
+
+ul.edd-cart {
+    list-style: none;
+}
+
+.edd-cart-number-of-items {
+    color: #262626;
+    font-style: normal;
+}
+
+.edd-cart .edd_subtotal {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.edd_empty_cart {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+/* Checkout
+/* ----------------------------------------------------------------- */
+
+#edd_checkout_form_wrap label:after {
+    display: none;
+}
+
+/*LABELS*/
+
+#edd_checkout_wrap label {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: 500;
+}
+
+#edd_checkout_wrap span.edd-required-indicator {
+    color: #FF4949;
+}
+
+#edd_checkout_wrap .edd-description {
+    display: none!important;
+}
+
+/*INPUTS*/
+
+#edd_checkout_form_wrap input.edd-input, 
+#edd_checkout_form_wrap textarea.edd-input {
+    width: 100%;
+}
+
+#edd_checkout_form_wrap input[type=email], 
+#edd_checkout_form_wrap input[type=password], 
+#edd_checkout_form_wrap input[type=text], 
+#edd_checkout_form_wrap textarea {
+    padding: 12px 10px;
+}
+
+#edd_checkout_form_wrap select.edd-select {
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 8px 10px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+#edd_checkout_form_wrap select.edd-select.edd-select-small {	
+    background-position: 80% 15px;
+    min-width: 90px!important;
+}
+
+#edd_checkout_form_wrap select.edd-select.edd-select-small:hover {	
+    background-position: 80% -25px;
+}
+
+/* PAYMENT ICONS */
+
+#edd_checkout_form_wrap .edd-payment-icons {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+#edd_checkout_form_wrap .edd-payment-icons img.payment-icon {
+    float: none;
+}
+
+/*BUTTONS AND LINKS*/
+
+.edd-submit, 
+.edd_checkout a,
+.edd-submit.button,
+#edd-purchase-button, 
+input[type=submit].edd-submit {
+    background: none;
+    border-radius: 1px;
+    border: none;
+    line-height:normal;
+    font-weight:normal;
+    font-size: inherit;
+    padding: 15px 35px;
+}
+
+.edd-cart-added-alert {
+    color: #3FC380;
+    display: inline;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.edd_cart_actions a,
+.edd-remove-from-cart {
+    color: #FF4949;
+    text-transform: capitalize;
+}
+
+.edd-submit.button.gray {
+    background: none repeat scroll 0 0 #f0f0f0 !important;
+    border-color: #ccc !important;
+    color: #333 !important;
+}
+
+.edd-submit.button.gray:active, 
+.edd-submit.button.gray:focus, 
+.edd-submit.button.gray:hover {
+    background: none repeat scroll 0 0 #ebebeb !important;
+    border-color: #adadad !important;
+    color: #333 !important;
+}
+
+
+.edd-submit.button.gray:active {
+    background-image: none;
+}
+
+.edd-submit.button.white {
+    background: none repeat scroll 0 0 #fff !important;
+    border-color: #ccc !important;
+    color: #333 !important;
+}
+
+.edd-submit.button.white:active, 
+.edd-submit.button.white:focus, 
+.edd-submit.button.white:hover {
+    background: none repeat scroll 0 0 #ebebeb !important;
+    border-color: #adadad !important;
+    color: #333 !important;
+}
+
+.edd-submit.button.white:active {
+    background-image: none;
+}
+
+.edd-submit.button.blue {
+    background: none repeat scroll 0 0 #428bca !important;
+    border-color: #357ebd !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.blue.active, 
+.edd-submit.button.blue:focus, 
+.edd-submit.button.blue:hover {
+    background: none repeat scroll 0 0 #3276b1 !important;
+    border-color: #285e8e !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.blue.active {
+    background-image: none;
+}
+
+.edd-submit.button.red {
+    background: none repeat scroll 0 0 #d9534f !important;
+    border-color: #d43f3a !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.red:active, 
+.edd-submit.button.red:focus,
+.edd-submit.button.red:hover {
+    background: none repeat scroll 0 0 #d2322d !important;
+    border-color: #ac2925 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.red:active {
+    background-image: none;
+}
+
+.edd-submit.button.green {
+    background: none repeat scroll 0 0 #5cb85c !important;
+    border-color: #4cae4c !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.green:active, 
+.edd-submit.button.green:focus, 
+.edd-submit.button.green:hover {
+    background: none repeat scroll 0 0 #47a447 !important;
+    border-color: #398439 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.green:active {
+    background-image: none;
+}
+
+.edd-submit.button.yellow {
+    background: none repeat scroll 0 0 #f0ad4e !important;
+    border-color: #eea236 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.yellow:active, 
+.edd-submit.button.yellow:focus, 
+.edd-submit.button.yellow:hover {
+    background: none repeat scroll 0 0 #ed9c28 !important;
+    border-color: #d58512 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.yellow:active {
+    background-image: none;
+}
+
+.edd-submit.button.orange {
+    background: none repeat scroll 0 0 #ed9c28 !important;
+    border-color: #e3921e !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.orange:active, 
+.edd-submit.button.orange:focus, 
+.edd-submit.button.orange:hover {
+    background: none repeat scroll 0 0 #e59016 !important;
+    border-color: #d58512 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.orange:active {
+    background-image: none;
+}
+
+.edd-submit.button.dark-gray {
+    background: none repeat scroll 0 0 #363636 !important;
+    border-color: #222 !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.dark-gray:active, 
+.edd-submit.button.dark-gray:focus, 
+.edd-submit.button.dark-gray:hover {
+    background: none repeat scroll 0 0 #333 !important;
+    border-color: #adadad !important;
+    color: #fff !important;
+}
+
+.edd-submit.button.dark-gray:active {
+    background-image: none;
+}
+
+
+/*FORM ERRORS*/
+
+.edd_errors {
+    background-color: #FF4949;
+    border: none!important;
+    border-radius: 0px;
+    color: #FFF;
+    font-size: 14px!important;
+    line-height: 22px!important;
+    text-align: center;
+}
+
+.edd_errors a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.edd_errors a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#edd_checkout_form_wrap input.edd-input.error, 
+#edd_checkout_form_wrap textarea.edd-input.error {
+    border-color: #FF4949;
+}
+
+/* General alyout */
+
+.edd_downloads_list h3 {
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.edd_downloads_list .edd_download {
+    margin-bottom: 54px;
+}
+
+#edd_checkout_wrap {
+    /*margin-bottom: -60px;*/
+    margin-top: 0px;
+    text-align: left!important;
+}
+
+#edd_checkout_wrap legend {
+    border: none;
+    color: inherit;
+}
+
+#edd_checkout_cart {
+    border-bottom: none;
+}
+
+#edd_checkout_cart,
+#edd_checkout_form_wrap fieldset,
+#edd_checkout_form_wrap #edd_final_total_wrap,
+#edd_checkout_form_wrap #edd-discount-code-wrap {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#edd_checkout_cart td, 
+#edd_checkout_cart th,
+#edd_checkout_form_wrap fieldset,
+#edd_checkout_form_wrap #edd_show_discount,
+#edd_checkout_cart .edd_cart_header_row th,
+#edd_checkout_form_wrap #edd-new-account-wrap, 
+#edd_checkout_form_wrap #edd_final_total_wrap, 
+#edd_checkout_form_wrap #edd-discount-code-wrap, 
+#edd_checkout_form_wrap #edd-login-account-wrap {
+    background-color: #f6f6f6;
+    border: none !important;
+    font-weight: normal;
+}
+
+fieldset#edd_purchase_submit,
+#edd_checkout_form_wrap #edd_final_total_wrap {
+    background-color: transparent !important;
+}
+
+#edd_checkout_cart .edd_cart_header_row th {
+    font-size: initial;
+    font-weight: 500;
+    padding: 15px 35px;	
+}
+
+#edd_checkout_cart td {
+    background-color: #FFF!important;
+    padding: 10px 25px;	
+}
+
+#edd_checkout_cart td img {
+    margin-top: 5px;
+}
+
+tr.edd_cart_footer_row {
+    display: none;
+}
+
+/*HEADERS*/
+
+p#edd_final_total_wrap,
+#edd_checkout_cart thead,
+#edd_checkout_form_wrap legend,
+#edd_checkout_form_wrap #edd-payment-mode-wrap .edd-payment-mode-label {
+    font-size: 130%;
+    font-weight: 500;
+}
+
+#edd_checkout_form_wrap #edd-payment-mode-wrap .edd-payment-mode-label {
+    margin-bottom: 20px;	
+}
+
+/*DISCOUNT*/
+
+#edd-discount-code-wrap label {
+    display: none;
+}
+
+#edd-discount-code-wrap input {
+    margin: 0px;
+}
+
+#edd_checkout_form_wrap #edd_show_discount {
+    padding: 15px 20px;
+}
+
+/*CREDIT CARD*/
+
+#edd-card-cvc-wrap {
+    position: relative;
+}
+
+#edd-card-cvc-wrap input.edd-input {
+    min-width: 140px!important;
+    width: 16%;
+}
+
+#edd-card-cvc-wrap .edd-description {
+    background: url(images/cvc.png) no-repeat 0px 0px;
+    color: #ACACAC!important;
+    display: block!important;
+    font-size: 90%!important;
+    line-height: 22px!important;
+    height: 33px;
+    left: 160px;
+    padding-left: 50px;
+    position: absolute;
+    top: 55%;
+}
+
+#edd-card-country-wrap {
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+}
+
+#edd-card-state-wrap {
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+}
+
+/*SUBMIT*/
+
+#edd_checkout_form_wrap #edd_final_total_wrap {
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+}
+
+#edd_purchase_submit {
+	padding-bottom: 35px!important;
+	text-align: center;
+}
+
+p#edd_final_total_wrap {
+	font-size: 20px!important;
+}
+
+#edd_purchase_submit #edd-purchase-button {
+	padding: 15px 25px!important;
+}
+
+p#edd_final_total_wrap span {
+	font-weight: bold;
+}
+
+#edd_purchase_submit #edd-purchase-button {
+	font-size: 20px!important;
+}
+
+/* purchase history */
+
+#edd_user_history th {
+    background: inherit;
+    color: inherit;
+    padding: 10px 15px;
+}
+
+#edd_user_history td, 
+#edd_user_history th {
+    padding: 10px 15px;
+    border: none;
+}
+
+/* profile */
+
+#edd_profile_editor_submit {
+    margin: 27px 0
+}
+
+/* Cols
+/* --------------------------------------------------------- */
+
+/* Hide tilded galleries and images in the description */
+.edd_downloads_list .edd_download_excerpt .tiled-gallery, 
+.edd_downloads_list .edd_download_excerpt img {
+    display: none;
+}
+
+/* Make the shortcode columns look better on various screen sizes */
+
+@media ( max-width: 980px ) {
+    .edd_download_columns_2 .edd_download .edd-submit,
+    .edd_download_columns_3 .edd_download .edd-submit,
+    .edd_download_columns_4 .edd_download .edd-submit,
+    .edd_download_columns_5 .edd_download .edd-submit,
+    .edd_download_columns_6 .edd_download .edd-submit
+    {
+        padding: 10px !important;
+        
+    }
+}
+
+@media ( max-width: 1199px ) {
+    .edd_download_columns_4 .edd_download {
+        width: 50% !important;
+    }
+}
+
+@media ( max-width: 749px ) {
+    .edd_download_columns_3 .edd_download {
+        width: 100% !important;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+}
+
+@media ( max-width: 649px ) {
+    .edd_download_columns_2 .edd_download,
+    .edd_download_columns_3 .edd_download,
+    .edd_download_columns_4 .edd_download,
+    .edd_download_columns_5 .edd_download,
+    .edd_download_columns_3 .edd_download
+    {
+        width: 100% !important;
+    }
+}
+
+
+/* RESPONSIVE
+/* --------------------------------------------------------- */
+
+/*FIRST CUT*/
+
+@media screen and (max-width: 1416px) {
+    #edd-card-cvc-wrap .edd-description {
+        line-height: 15px!important;
+    }
+
+    .single-portfolio .edd_purchase_submit_wrapper {
+        margin-bottom: 35px;
+    }
+}
+
+/*THIRD CUT*/
+
+@media screen and (max-width: 707px) {
+    #edd_checkout_wrap {
+        margin-bottom: -90px;
+    }
+
+    #edd_checkout_cart td,
+    #edd_checkout_cart .edd_cart_header_row th {
+        font-size: 13px!important;
+        padding: 10px 5px;		
+    }
+
+    #edd-card-state-wrap,
+    #edd-card-country-wrap {
+        float: none;
+        padding: 0px;
+        width: 100%;
+    }
+
+    #edd-card-cvc-wrap .edd-description {
+        display: none!important;
+    }
+
+    #edd-card-cvc-wrap input.edd-input {
+        width: 100%;
+    }
+
+    #edd_checkout_form_wrap span.exp-divider {
+        display: none;
+    }
+
+    #edd_checkout_form_wrap select.edd-select.edd-select-small {
+        min-width: none!important;
+        width: 48%;
+    }
+}
+
+
+/*===================================================================*/
+/* RETINA
+/*===================================================================*/
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) {
+    #edd_checkout_form_wrap select.edd-select {
+        background-size: 8px 54px; 
+    }
+
+    #edd-card-cvc-wrap .edd-description {
+
+    }
+}

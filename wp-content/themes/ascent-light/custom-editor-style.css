@@ -1,0 +1,305 @@
+/*	Styles for post / page editor
+-------------------------------------------------------------- */
+
+body {
+    font: 16px/30px 'Source Sans Pro',sans-serif;
+    color: #565656;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+p.tagline {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.3em !important;
+    line-height: 1.6 !important;
+    font-weight: inherit;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #428BCA;
+    transition: none;
+}
+
+a:hover {
+    color: #428BCA;
+    text-decoration: underline;
+    transition: none;
+}
+
+strong, b {
+    font-weight:bold;
+}
+
+/* =Headings
+-------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414142;
+    margin-top: 0;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 56px;
+    margin: 0 0 30px 0;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Helpers
+---------------------------------------------------------------- */
+
+.wp-caption-text, 
+.gallery-caption {
+    font-size:12px;
+    color:#555;
+    margin-top:5px;
+}
+
+.wp-caption {
+    text-align: center;
+    max-width: 100%;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+img.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-left, 
+.alignleft {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.img-right, 
+.alignright {
+    float: right;
+    margin: 0 0 25px 20px;
+}
+
+blockquote {
+    border: none !important;
+    background: #3498DB;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+    font-size: 1.2em !important;
+    line-height: 1.4em !important;
+    position: relative;
+}
+
+blockquote:after {
+    border-right: 20px solid transparent;
+    border-top: 20px solid #3498DB;
+    bottom: -15px;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    left: 40px;
+    width: 0;
+}
+
+blockquote p {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    font-weight: normal;
+}
+
+blockquote cite, 
+blockquote strong, 
+blockquote small {
+    font-family: sans-serif;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    display: block;
+    margin: 20px 0 0;
+    color: #fff !important;
+}
+
+.pull-quote {
+    color: #222;
+    margin: 27px 0;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    width: 25%;
+    min-width: 250px;
+    float: right;
+    margin: 0 0 35px 35px;
+    padding: 0px;
+    background: transparent;
+    position: relative;
+}
+
+@media ( max-width: 500px ) {
+    .pull-quote {
+        width: 100%;
+        min-width: 0;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/* lists */
+
+/* we need to stop defualt styling on lists that use font awesome for icons.  */
+
+ul.font-awesome-list {
+    list-style: none;
+    margin: 20px 0 30px 0;
+    padding: 0;
+}
+
+ul.font-awesome-list li {
+    position: relative;
+    padding: 0 0 0 25px;
+    margin: 0 0 7px 0;
+    line-height: 24px;
+}
+
+ul.font-awesome-list li i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+ul, ol {
+    padding: 0 0 0 20px;
+    margin: 20px 0 30px 0;
+}
+
+/* second level */
+ul li ul, 
+ol li ol {
+    margin: 0;
+}
+
+/* third level */
+ul li ul li ul, 
+ol li ol li ol { 
+    margin: 0;
+}
+
+li {
+    line-height: inherit;
+}
+
+ul.list-group {
+    margin: 0 0 40px 20px;
+}
+
+/* tables */
+
+.table {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+table > tbody > tr:nth-child(2n+1) > td, 
+table > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F9F9F9;
+}
+
+table {
+    margin: 20px 0 30px 0;
+}
+
+thead {
+    background: #222222;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: none;
+    padding: 4px 10px;
+}
+
+thead th {
+    padding: 4px 10px;
+}
+
+tbody th, 
+tbody td {
+    padding: 4px 10px;
+}
+
+.table > thead > tr > th {
+    border: none;
+    font-weight: normal;
+}
+
+/* code */
+
+code {
+    padding: 7px 12px;
+    margin: 30px 0;
+}
+
+pre {
+    border: none;
+    border-radius: 4px;
+    color: #C7254E;
+    margin: 30px 0;
+}
+
+/* other */
+
+big {
+    font-size: 1.6em;
+}
+
+cite {
+    color: #666;
+    font-size: 12px;
+}

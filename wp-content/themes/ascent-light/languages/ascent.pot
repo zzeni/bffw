@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ascent Free 1.0\n"
+"POT-Creation-Date: 2015-11-27 21:00-0000\n"
+"PO-Revision-Date: 2015-11-27 21:01-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_r\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "Why not try searching for the page you want?"
+msgstr ""
+
+#: comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:31 comments.php:50
+msgid "<span class=\"meta-nav\"></span> Older Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:51
+msgid "Newer Comments <span class=\"meta-nav\"></span>"
+msgstr ""
+
+#: comments.php:60
+msgid "There are no comments yet."
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:76
+msgid "Your name"
+msgstr ""
+
+#: comments.php:80
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:82
+msgid "Your email address"
+msgstr ""
+
+#: comments.php:89
+msgid "Your comment:"
+msgstr ""
+
+#: comments.php:90
+msgid "Enter your comment"
+msgstr ""
+
+#: comments.php:93
+msgid "Leave a Comment"
+msgstr ""
+
+#: content-page.php:5 content.php:22
+msgid "Read More"
+msgstr ""
+
+#: content-page.php:7 content.php:24 single.php:17
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:11 content.php:28 inc/functions-templates.php:177
+#: single.php:21
+msgid "Page"
+msgstr ""
+
+#: footer.php:7
+msgid "home"
+msgstr ""
+
+#: functions.php:24
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:25
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:163
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:165
+msgid "Default blog sidebar stuff"
+msgstr ""
+
+#: functions.php:173
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:175
+msgid "Default page sidebar stuff"
+msgstr ""
+
+#: functions.php:183
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:185
+msgid "Sidebar for the single EDD shop"
+msgstr ""
+
+#: functions.php:193
+msgid "Checkout Sidebar"
+msgstr ""
+
+#: functions.php:195
+msgid "Sidebar for the EDD checkout"
+msgstr ""
+
+#: functions.php:203 functions.php:205
+msgid "Footer Top Widget"
+msgstr ""
+
+#: functions.php:213 functions.php:215
+msgid "Footer Middle Widget"
+msgstr ""
+
+#: functions.php:223
+msgid "Footer bottom Widget"
+msgstr ""
+
+#: functions.php:225
+msgid "Footer Bottom Widget"
+msgstr ""
+
+#: functions.php:233 functions.php:235
+msgid "Footer Terms Widget"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:14
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:55
+#, php-format
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:57
+#, php-format
+msgid ""
+"Thanks for using %1$s! We truly appreciate the support and the chance to "
+"share our work with you. Please visit the tabs below to get started setting "
+"up your theme!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:66
+msgid "Quick Start Guide"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:68
+msgid ""
+"Head over to <em>Appearance</em> &rarr; <em>Customize</em> and upload your "
+"logo if required."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:69
+msgid ""
+"Go to <em>Settings</em> &rarr; <em>Reading</em> and select a page to use as "
+"your homepage. If you don't have one yet, just create a page first."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:70
+msgid ""
+"When you have a page that you want to use for the homepage, go to that page "
+"and select the <em>Home</em> template under <em>Page Attributes &rarr; "
+"Template</em>."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:71
+msgid ""
+"Go to <em>Settings</em> &rarr; <em>Reading</em> and select a page to use as "
+"your blog. If you don't have one yet, just create a page first."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:72
+msgid ""
+"To set up your portfolio, create a new page and assign it to the "
+"<em>Portfolio</em> page template. Then create an item to be shown on this "
+"portfolio by adding a new page and selecting the <em>Portfolio item</em> "
+"template as the template. This will then show on the page you have assigned "
+"the <em>Portfolio</em> template to. Do the same for all the items you want "
+"to add to your portfolio."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:79
+msgid "Turbo Charge this Theme!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:80
+msgid ""
+"Ascent Free is the free, simple version of Ascent. To gain access to "
+"powerful options and features to help you make more sales and help your "
+"store look even more awesome, upgrade today. You'll get the ability to "
+"change more options in the theme so that your site is truely unique, and you "
+"will also get access to premium email support! "
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:82
+msgid "See Ascent Premium"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:108
+#, php-format
+msgid ""
+" %1$s activated! Visit the <a href=\"%2$s\">Getting Started</a> page to view "
+"the help file or ask us a question. "
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:110
+#, php-format
+msgid "<a href=\"%1$s\">Hide this notice</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:161 inc/themeora-framework-init.php:174
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:162 inc/themeora-framework-init.php:175
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:163 inc/themeora-framework-init.php:176
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:175 inc/themeora-framework-init.php:188
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:177
+#: inc/class-tgm-plugin-activation.php:1945
+#: inc/themeora-framework-init.php:189
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:534
+#: inc/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1290
+#: inc/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1312
+#: inc/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/edd/functions.php:18
+msgid "Starting at"
+msgstr ""
+
+#: inc/edd/functions.php:37
+msgid "Add to Cart"
+msgstr ""
+
+#: inc/edd/functions.php:62
+msgid "Buy"
+msgstr ""
+
+#: inc/functions-templates.php:27
+msgid "Sorry! We cant find that page!"
+msgstr ""
+
+#: inc/functions-templates.php:30
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: inc/functions-templates.php:34
+msgid "Search Results for"
+msgstr ""
+
+#: inc/functions-templates.php:158 single-download.php:28
+msgid "No posts found"
+msgstr ""
+
+#: inc/functions-templates.php:175
+msgid "Previous page"
+msgstr ""
+
+#: inc/functions-templates.php:176
+msgid "Next page"
+msgstr ""
+
+#: inc/functions-templates.php:203
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/functions-templates.php:219
+msgid "Sticky"
+msgstr ""
+
+#: inc/functions-templates.php:224
+msgid "By "
+msgstr ""
+
+#: inc/functions-templates.php:257
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/functions-templates.php:318
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/functions-templates.php:321
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: inc/functions-templates.php:326
+msgid "Next <i class=\"fa fa-chevron-right\"></i> "
+msgstr ""
+
+#: inc/functions-templates.php:345
+msgid "Tagged As"
+msgstr ""
+
+#: inc/functions-templates.php:362
+msgid "Author"
+msgstr ""
+
+#: inc/functions-templates.php:362
+msgid "Posts by "
+msgstr ""
+
+#: inc/functions-templates.php:367
+msgid "has"
+msgstr ""
+
+#: inc/functions-templates.php:370
+msgid "article"
+msgstr ""
+
+#: inc/functions-templates.php:370
+msgid "articles"
+msgstr ""
+
+#: inc/functions-templates.php:581
+msgid "...read more"
+msgstr ""
+
+#: inc/functions-templates.php:629
+msgid "Previous"
+msgstr ""
+
+#: inc/functions-templates.php:632
+msgid "Next"
+msgstr ""
+
+#: inc/functions-templates.php:659
+msgid "You may also like"
+msgstr ""
+
+#: inc/themeora-customizer.php:67
+msgid "Pro Upgrade"
+msgstr ""
+
+#: inc/themeora-customizer.php:77
+msgid "Pro upgrade available"
+msgstr ""
+
+#: inc/themeora-customizer.php:78
+msgid ""
+"<p>Upgrade today for loads more options to make your online store more "
+"succesful and unique. Get premium email support and boost your sales with a "
+"premium, easy to setup version of Ascent.</p><p><a class=\"button button-"
+"primary\" href=\"http://themeora.com/portfolio/ascent-easy-digital-downloads-"
+"theme/\" taget=\"_blank\">Go Pro</a></p>"
+msgstr ""
+
+#: inc/themeora-customizer.php:90
+msgid "Accent Color"
+msgstr ""
+
+#: inc/themeora-customizer.php:97 inc/themeora-customizer.php:106
+msgid "Image Logo Settings"
+msgstr ""
+
+#: inc/themeora-customizer.php:115
+msgid "Logo"
+msgstr ""
+
+#: inc/themeora-customizer.php:126
+msgid "Logo width (px)"
+msgstr ""
+
+#: inc/themeora-customizer.php:139
+msgid "Show description in header"
+msgstr ""
+
+#: inc/themeora-customizer.php:143
+msgid "No"
+msgstr ""
+
+#: inc/themeora-customizer.php:144
+msgid "Yes"
+msgstr ""
+
+#: inc/themeora-customizer.php:152
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/themeora-customizer.php:163
+msgid "Footer Logo width (px)"
+msgstr ""
+
+#: inc/themeora-customizer.php:173
+msgid "Logo Typography"
+msgstr ""
+
+#: inc/themeora-customizer.php:184
+msgid "Logo Font"
+msgstr ""
+
+#: inc/themeora-customizer.php:197
+msgid "Logo Size"
+msgstr ""
+
+#: inc/themeora-customizer.php:209
+msgid "General Settings"
+msgstr ""
+
+#: inc/themeora-customizer.php:218
+msgid "Banner image on homepage"
+msgstr ""
+
+#: inc/themeora-customizer.php:229
+msgid "Banner image max-width (px)"
+msgstr ""
+
+#: inc/themeora-customizer.php:241
+msgid "Analytics tracking id ( example: UA-53267497-1 )"
+msgstr ""
+
+#: inc/themeora-customizer.php:252
+msgid "Background"
+msgstr ""
+
+#: inc/themeora-framework-init.php:177
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/themeora-framework-init.php:190
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/widgets/widget-video.php:25
+msgid "A simple video widget that makes it easy to add responsive videos "
+msgstr ""
+
+#: inc/widgets/widget-video.php:27
+msgid "Themeora Video Widget"
+msgstr ""
+
+#: inc/widgets/widget-video.php:62
+msgid "Enter a title (if required) and embed URL of a video here:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:69
+msgid "Video Embed Code:"
+msgstr ""
+
+#: search.php:16
+msgid "Read more"
+msgstr ""
+
+#: search.php:24
+msgid "Sorry, nothing was found. Please try again."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search again"
+msgstr ""

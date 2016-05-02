@@ -1,0 +1,46 @@
+
+=== Ascent Light WordPress Theme ===
+Contributors: themeora
+Donate link: https://themeora.com
+Tags: blogging, easy digital downloads, ecommerce, edd, portfolio, white, light, one-column, two-columns, right-sidebar, post-formats, threaded-comments, translation-ready, featured-images
+Requires at least: 4
+Tested up to: 4.5
+Stable tag: 1.7
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+= 1.8 - 21/04/16
+* Removed unnecessary image from img directory
+* Updated Theme URI
+
+= 1.7 - 20/04/16
+* Changed screenshot to be GPL compatible
+* Updated getting started help text
+
+= 1.6 - 17/04/16
+* Theme name changed to Ascent Light
+* Prefixes added to functions
+* Removed title tag backwards compatibility
+* Changed to get_template_directory to include required files
+
+= 1.5 - 17/03/16 =
+* Removed inline style added via wp_head hook and used add_inline_style instead
+* Removed analytics tracking code inline script
+
+= 1.4 - 17/03/16 =
+* Removed empty admin-init file
+* Removed unused custom header functions
+* Removed slider control for customizer
+
+= 1.3 - 15/03/16 =
+* Changed version numbering system
+* Removed category template
+
+= 1.02 - 08/03/16 =
+* Changed text domain
+* Removed title tag from head
+* Added unminifed js
+* Removed unused js
+
+= 1.0 - 27/11/15 =
+* Initial release.
